@@ -7,7 +7,7 @@ const API = {
     });
   },
   addLocation: function(locationObject) {
-    fetch("http://localhost:8088/places", {
+    fetch("http://localhost:8088/interests", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(locationObject)

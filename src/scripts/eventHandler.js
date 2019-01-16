@@ -5,8 +5,12 @@ const eventHandler = {
     const name = document.getElementById("#name");
 
     const locationObject = {
+      id: 1,
+      placeId,
       name,
-      visa_required: true
+      description,
+      cost,
+      review
     };
     API.addLocation(locationObject);
   }
