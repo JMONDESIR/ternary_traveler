@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Browserify Boilerplate</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
     <article class="output">
-
+      <div><label for="">Name</label> <input type="text" id="name" /></div>
+      <div>
+        <label for="">Description</label> <input type="text" id="description" />
+      </div>
+      <div><label for="">Cost</label> <input type="text" id="cost" /></div>
+      <select id="locationTab">
+        <option value="london">London</option>
+        <option value="paris">Paris</option>
+        <option value="berlin">Berlin</option>
+        <option value="new york">New York</option>
+      </select>
+      <button>SAVE</button>
     </article>
 
     <script src="bundle.js"></script>
-</body>
+  </body>
 </html>

@@ -1,1 +1,3 @@
-console.log("hello");
+import locationResults from "./places";
+
+locationResults.allPlaces();
